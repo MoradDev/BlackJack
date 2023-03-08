@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS_BJ/blackjack2.css"/> 
+    <title>ProjetBlackJack</title>
+</head>
+<body>
+    <header id="entete">
+        <figure id="logo">
+            <img src="CSS_BJ/IMG_BJ/logo2.png"/>
+        </figure>
+        <div id="compteurScore">
+            <!-- <img src="CSS_BJ/IMG_BJ/score2.png"/> -->
+            <div id = "partieBanquier">
+                <p>Parties Gagnées Banquier
+                    <br/>
+                    <span id="nbPartieBanquier">0</span>
+                </p>
+            </div>
+            <div id = "partieJoueur">
+                <p>Parties Gagnées Joueur<br/>
+                    <span id="nbPartieJoueur">0</span>
+                </p>
+            </div>
+            <!-- remplacera par la suite l'image -->
+        </div>
+    </header>
+    <section id="tapis">
+        <div id="donne">
+            <button id="boutonDonne">Nouvelle Donne</button>
+        </div>
+        <article id="coteBanquier">
+            <!-- <img src="CSS_BJ/IMG_BJ/IMG_CARTES/cartes2.png"/> -->
+            <!-- <img src="CSS_BJ/IMG_BJ/IMG_CARTES/cartes2.png"/> -->
+            <div id="tablebanquier">
+
+            </div>
+            <div id="mainBanquier">
+                <p>le banquier a <span id="pointMainBanquier">0</span><br/>points en main</p>
+            </div>
+        </article>
+        <article id="coteJoueur">
+                <!-- <img src="CSS_BJ/IMG_BJ/IMG_CARTES/cartes2.png"/> -->
+                <!-- <img src="CSS_BJ/IMG_BJ/IMG_CARTES/cartes2.png"/> -->
+                <div id="tablejoueur">
+
+                </div>
+                <div id="mainJoueur">
+                    <p>vous avez <span id="pointMainJoueur">0</span> <br/>points en main</p> 
+                </div>
+                <div id="boutons">
+                    <button id="hit"><img src="CSS_BJ/IMG_BJ/btn_hit.png"/></button>
+                    <button id="stand"><img src="CSS_BJ/IMG_BJ/btn_stand.png"/></button>
+                    <button id="over"><img src="CSS_BJ/IMG_BJ/btn_over.png"/></button>
+                </div>
+        </article>
+        <div id="sabot">
+            <img src="CSS_BJ/IMG_BJ/IMG_CARTES//sabot2.png"/>
+        </div>
+    </section>
+<script src="JS_BJ/blackJack2.js"></script>    
+</body>
+</html>

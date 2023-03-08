@@ -1,0 +1,150 @@
+body{
+    background-image: url("IMG_BJ/fond.jpg");
+    background-size: 100%;   
+}
+
+#entete{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+    margin-bottom: 0;
+}
+
+
+#compteurScore{
+    position: absolute;
+    top: 1em;
+    left: 80%;
+    height: 8em;
+    width: 16em; 
+    background-color:rgba(8, 71, 10, 0.7);
+    border-radius: 3px;
+    box-shadow:2px 3px 4px rgb(1, 41, 41);
+    color: rgb(240,240,240);
+    text-align: center;
+    font-size: 2ex;
+    padding: 2px;
+}
+
+#partieBanquier{
+    position: absolute;
+    top: 1em;
+    left: 10%;
+    height: 4em;
+    width: 10em;
+    padding: 0;
+    margin: 0;
+}
+
+
+#partieJoueur{
+    position: absolute;
+    top: 4em;
+    left: 10%;
+    height: 4em;
+    width: 10em;
+    padding: 0;
+    margin: 0;
+}
+
+#donne{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 4em;
+    width: 8em;
+}
+
+#boutonDonne{
+    position: absolute;
+    margin: auto;
+}
+
+#tablebanquier{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    margin: auto;
+    top: 20%;
+    left: 10%;
+}
+
+#mainBanquier{
+    position: absolute;
+    background-color:rgba(8, 71, 10, 0.7);
+    height: 3em;
+    width: 10em;
+    border-radius: 3px;
+    top: 42%;
+    left: 15%;
+    box-shadow:2px 3px 4px rgb(1, 41, 41);
+    color: rgb(240,240,240);
+    text-align: center;
+    padding-top: 1px;
+    font-size: 2ex;
+}
+
+
+#tablejoueur{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    top: 60%;
+    left: 10%;
+    margin: auto;
+}
+
+#mainJoueur{
+    position: absolute;
+    background-color:rgba(8, 71, 10, 0.7);
+    height: 3em;
+    width: 10em;
+    border-radius: 3px;
+    top: 82%;
+    left: 15%;
+    box-shadow:2px 3px 4px rgb(1, 41, 41);
+    color: rgb(240,240,240);
+    text-align: center;
+    padding-top: 1px;
+    font-size: 2ex;
+}
+
+
+#boutons{
+    position: absolute;
+    top: 90%;
+    left: 15%;
+}
+
+
+#sabot{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 85%;
+}
+
+
+.image{ 
+    position: relative; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    float: left;
+    margin: 5px;
+    background-color: rgb(243, 237, 237);
+    height: 130px;
+    width: 80px;
+    border: (solid, black, 2px, 0.8);
+    border-radius: 4px;
+}
+
+.imageCarte{
+    position: absolute;
+    /*display: inline-block;*/
+    width: 80px;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+}
